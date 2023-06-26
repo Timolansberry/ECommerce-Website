@@ -1,29 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tutorial</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CDN from bootstrap website -->
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!-- Font Awesome CDN from font awesome website, might need to edit -->
 
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+      <!--py is booster class padding on y axis top and bottom highest is 5, px is padding on x axis-->
+      <!--fixed-top is booster class to make navbar fixed on top-->
+      <div class="container">
+        <img src="img/logo1.png" alt="logo1" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i id="bar" class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- ml-auto is booster class to push the nav items to the right (means margin from left)-->
 
-    <body>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact US</a>
+            </li>
+            <li class="nav-item">
+                <i class="fal fa-search"></i>
+                <i class="fal fa-shopping-bag"></i>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<section id="home">
+<div class="container">   <!--container is booster class to center the content, same spacing left as logo-->
+    <h5>NEW ARRIVALS</h5>
+    <h1><span>BEST PRICE</span> THIS YEAR</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quisquam, voluptatum.</p>
+    <button>Shop Now</button>
+</div>
+</section>
+
+<section id="brand" class="container"> <!--container is booster class and here remove horizontal scroll-->
+<div class="row m-0 py-5">    <!--row is booster class to make row, m-0 is margin 0, py-5 is padding on y axis top and bottom 5-->
+    <img src="img/brand/1.png" class="img-fluid col-lg-2 col-md-4 col-6" alt="brand logos"> <!--img-fluid class makes image responsive-->
+                                                                   <!--by making into 12 columns, here gave amount of columns to large, medium and small screens--> 
+    <img src="img/brand/2.png" class="img-fluid col-lg-2 col-md-4 col-6" alt="brand logos">
+    <img src="img/brand/3.png" class="img-fluid col-lg-2 col-md-4 col-6" alt="brand logos">
+    <img src="img/brand/4.png" class="img-fluid col-lg-2 col-md-4 col-6" alt="brand logos">
+    <img src="img/brand/5.png" class="img-fluid col-lg-2 col-md-4 col-6" alt="brand logos">
+    <img src="img/brand/6.png" class="img-fluid col-lg-2 col-md-4 col-6" alt="brand logos">
+</div>
+</section>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-            integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-            crossorigin="anonymous"></script>
-    </body>
 
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <!-- linking jquery and js from bootstrap website -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
