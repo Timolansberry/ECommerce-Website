@@ -11,7 +11,7 @@ You can see it live by clicking [here](https://timolansberry.github.io/Ecommerce
 
 ## Tech Stack
 
-HTML, CSS, JavaScript, Bootstrap
+HTML, CSS, & Bootstrap
 
 ## Features
 
