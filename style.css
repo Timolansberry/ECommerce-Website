@@ -58,7 +58,19 @@ button:hover{
 }
 
 hr {
+  width: 30px;  
+  height: 2px;
+  background-color: #fb774b;
  
+}
+
+.star{
+  padding: 10px 0;
+}
+
+.star i{
+  font-size: 0.8rem;
+  color: goldenrod;
 }
 
 .navbar{
@@ -218,4 +230,32 @@ position: relative;
   justify-content: center;
   align-items: flex-end;
   
+}
+
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+
+}
+
+.product img{
+  transition: 0.3s all;
+}
+
+.product:hover img{
+  opacity: 0.7;
+}
+
+.product .buy-btn{
+  background-color: #fb774b;
+  transform: translateY(20px);  /*moves the button down 20px*/
+  opacity:0;              /*opacity 0 so it is not visible until hovered over*/
+  transition: 0.3s all;   /*transition of 0.3s so it is smooth*/
+}
+
+.product:hover .buy-btn{      /*when hovered over the button moves up and becomes visible*/
+  
+  transform: translateY(0);
+  opacity:1;
+ 
 }
