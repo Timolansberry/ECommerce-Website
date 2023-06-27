@@ -106,10 +106,10 @@ transition: 0.3s ease;
   color: black;
 }
 
-#navbarSupportedContent > ul > li:nth-child(6) > a > i{
+.navbar > a > i{
   color: black;
 }
-#navbarSupportedContent > ul > li:nth-child(6) > a > i:hover{
+.navbar > a > i:hover{
   color: #fb774b;
 }
 
