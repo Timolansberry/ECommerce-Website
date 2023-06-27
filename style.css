@@ -299,6 +299,13 @@ footer{
   background-color:#222222;
 }
 
+.footer-logo{
+  
+  background-color: white;
+  border-radius: 15px;
+
+}
+
 footer h5{
   color:#d8d8d8;
   font-weight: 700;
