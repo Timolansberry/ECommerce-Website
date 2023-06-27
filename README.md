@@ -25,3 +25,5 @@ HTML, CSS, Javascript, & Bootstrap
 
 Final product. I afterwards added:
 logo sends back to main page
+--
+added link to cart from all pages

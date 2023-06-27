@@ -102,6 +102,10 @@ transition: 0.3s ease;
   color: #fb774b;
 }
 
+.checkout{
+  color: black;
+}
+
 #bar{
   font-size: 1.5rem;
   padding: 7px;
