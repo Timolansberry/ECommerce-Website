@@ -23,3 +23,5 @@ HTML, CSS, Javascript, & Bootstrap
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+Final product. I afterwards added:
+logo sends back to main page
