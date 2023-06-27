@@ -110,12 +110,6 @@ transition: 0.3s ease;
   color: #fb774b;
 }
 
-.navbar > a > i{
-  color: black;
-}
-.navbar > a > i:hover{
-  color: #fb774b;
-}
 
 #bar{
   font-size: 1.5rem;
