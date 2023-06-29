@@ -1,0 +1,109 @@
+/* ------------------------ */
+/* Reset                    */
+/* ------------------------ */
+
+
+/* Box sizing */
+*,
+*::before,                    /*::before and ::after are pseudo elements*/
+*::after{                     /*Just the * doesnt affect pseudo elements*/
+    box-sizing: border-box;   /*border-box includes padding and border in the width and height*/
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture{
+    margin: 0;
+}
+
+/* Set up the body */
+body{
+    line-height: 1.5;                 /*space between lines is usually default 1.4 a bit small*/
+    min-height: 100vh;                /*to prevent short pages from being an issue*/
+}
+
+/* make images easier to work with */
+img,
+picture{
+    max-width: 100%;                  /*to make images responsive*/
+    display: block;                   /*to remove the space below the image*/
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select{
+    font: inherit;                          /*because by defaults they don't inherit the font from the parent*/
+}
+
+/* remove animations for people who've turned them off */
+
+@media (prefers-reduced-motion: reduce){
+    *,
+    *::before,
+    *::after{
+        animation-duration: 0.01s !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01s !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/* ------------------------ */
+/* Utility Classes          */   /*Utility classes are classes that are used to do one thing and one thing only*/
+/* ------------------------ */
+.flex{
+    display: flex;
+    gap: (var--gap, 1rem);
+}
+
+.grid{
+    display: grid;
+    gap: (var--gap, 1rem);
+}
+
+.container{
+    padding-inline: 2em;         /*padding-inline is the same as padding-left and padding-right*/ 
+    margin-inline: auto;
+    max-width: 80rem;
+}
+
+
+/* ------------------------ */
+/* Header                   */
+/* ------------------------ */
+
+
+
+
+/* ------------------------ */
+/* Hero                     */
+/* ------------------------ */
+
+
+
+/* ------------------------ */
+/* content                  */
+/* ------------------------ */
+
+
+
+/* ------------------------ */
+/* section                  */
+/* ------------------------ */
+
+
+
+/* ------------------------ */
+/* Footer                   */
+/* ------------------------ */
