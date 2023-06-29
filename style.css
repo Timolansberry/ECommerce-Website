@@ -521,5 +521,10 @@ height:auto
 
   #about-head img {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0;
   }
 }
