@@ -47,7 +47,7 @@
             <!-- ml-auto is booster class to push the nav items to the right (means margin from left)-->
 
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="shop.html">Shop</a>
@@ -56,7 +56,7 @@
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact US</a>
@@ -70,30 +70,369 @@
       </div>
     </nav>
 
-    <section id="about" class="my-5 py-5">
-        <div class="container text-center mt-5 py-5">
-            <!--mt-5 is margin top 5, py-5 is padding top and bottom 5-->
-            <h3 class="about-us-h3">About Us</h3>
-            <hr class="mx-auto" />
-            <!--mx-auto is margin x axis auto (left and right)-->
-            
-          </div>
+    <section id="home">
+      <div class="container">
+        <!--container is booster class to center the content, same spacing left as logo-->
+        <h5>NEW ARRIVALS</h5>
+        <h1><span>BEST PRICE</span> THIS YEAR</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+          Quisquam, voluptatum.
+        </p>
+        <button>Shop Now</button>
+      </div>
     </section>
-    
-<setion id="about-head" class="section-p1 container">
-<img src="img/about/a6.jpg" alt="">
-<div class="">
-    <h2>Who Are We?</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, molestiae? Neque consectetur voluptatum quam qui doloribus sit dignissimos ea id veniam rem aperiam, perferendis odit optio labore obcaecati officia sint nam officiis adipisci facere nulla vel ducimus consequatur. Magni doloribus at fugit repellendus corporis magnam ipsum dolore, porro atque, molestias recusandae facere? Animi, laboriosam. Quaerat, dolorem asperiores itaque error distinctio in minus rem voluptatum neque praesentium suscipit quis quod! Minus?</p>
-</div>
-</setion>
 
+    <section id="brand" class="container">
+      <!--container is booster class and here remove horizontal scroll-->
+      <div class="row m-0 py-5">
+        <!--row is booster class to make row, m-0 is margin 0, py-5 is padding on y axis top and bottom 5-->
+        <img
+          src="img/brand/1.png"
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          alt="brand logos"
+        />
+        <!--img-fluid class makes image responsive-->
+        <!--by making into 12 columns, here gave amount of columns to large, medium and small screens-->
+        <img
+          src="img/brand/2.png"
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          alt="brand logos"
+        />
+        <img
+          src="img/brand/3.png"
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          alt="brand logos"
+        />
+        <img
+          src="img/brand/4.png"
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          alt="brand logos"
+        />
+        <img
+          src="img/brand/5.png"
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          alt="brand logos"
+        />
+        <img
+          src="img/brand/6.png"
+          class="img-fluid col-lg-2 col-md-4 col-6"
+          alt="brand logos"
+        />
+      </div>
+    </section>
 
+    <section id="new" class="w-100">
+      <!--w-100 is booster class to make width 100%-->
+      <div class="row p-0 m-0">
+        <!--p-0 is padding 0, m-0 is margin 0-->
+        <div class="one col-lg-4 col-md-12 col-12 p-0">
+          <img class="img-fluid" src="img/new/1.jpg" alt="" />
+          <div class="details">
+            <h2>Extreme Rare Sneakers</h2>
+            <button class="text-uppercase">Shop Now</button>
+          </div>
+        </div>
+        <div class="one col-lg-4 col-md-12 col-12 p-0">
+          <img class="img-fluid" src="img/new/5.jpg" alt="" />
+          <div class="details">
+            <h2>Awesome Blank Outfit</h2>
+            <button class="text-uppercase">Shop Now</button>
+          </div>
+        </div>
+        <div class="one col-lg-4 col-md-12 col-12 p-0">
+          <img class="img-fluid" src="img/new/3.jpg" alt="" />
+          <div class="details">
+            <h2>Sportwear Up To 50% Off</h2>
+            <button class="text-uppercase">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="featured" class="my-5 pb-5">
+      <div class="container text-center mt-5 py-5">
+        <!--mt-5 is margin top 5, py-5 is padding top and bottom 5-->
+        <h3>Our Featured</h3>
+        <hr class="mx-auto" />
+        <!--mx-auto is margin x axis auto (left and right)-->
+        <p>Here you can check out our new products with fair price on Shops.</p>
+      </div>
+      <div class="row mx-auto container-fluid">
+        <!--mx-auto is margin x axis auto (left and right), container fluid gives space on left side-->
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/featured/1.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/featured/2.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/featured/3.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/featured/4.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
 
+    <section id="banner" class="my-5 py-5">
+      <div class="container">
+        <h4>MID SEASON'S SALE</h4>
+        <h1>Autumn Collection<br />TO 20% OFF</h1>
+        <button class="text-uppercase">Shop Now</button>
+      </div>
+    </section>
 
+    <section id="clothes" class="my-5">
+      <div class="container text-center mt-5 py-5">
+        <!--mt-5 is margin top 5, py-5 is padding top and bottom 5-->
+        <h3>Dresses & Jumpsuits</h3>
+        <hr class="mx-auto" />
+        <!--mx-auto is margin x axis auto (left and right)-->
+        <p>Here you can check out our new products with fair price on Shops.</p>
+      </div>
+      <div class="row mx-auto container-fluid">
+        <!--mx-auto is margin x axis auto (left and right), container fluid gives space on left side-->
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/clothes/1.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/clothes/2.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/clothes/3.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/clothes/1.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
 
-    
+    <section id="watches" class="my-5">
+      <div class="container text-center mt-5 py-5">
+        <!--mt-5 is margin top 5, py-5 is padding top and bottom 5-->
+        <h3>Best Watches</h3>
+        <hr class="mx-auto" />
+        <!--mx-auto is margin x axis auto (left and right)-->
+        <p>Here you can check out our new products with fair price on Shops.</p>
+      </div>
+      <div class="row mx-auto container-fluid">
+        <!--mx-auto is margin x axis auto (left and right), container fluid gives space on left side-->
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/watches/1.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/watches/2.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/watches/3.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/watches/4.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="shoes" class="my-5 pb-5">
+      <div class="container text-center mt-5 py-5">
+        <!--mt-5 is margin top 5, py-5 is padding top and bottom 5-->
+        <h3>Running Shoes</h3>
+        <hr class="mx-auto" />
+        <!--mx-auto is margin x axis auto (left and right)-->
+        <p>Here you can check out our new products with fair price on Shops.</p>
+      </div>
+      <div class="row mx-auto container-fluid">
+        <!--mx-auto is margin x axis auto (left and right), container fluid gives space on left side-->
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/shoes/8.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/shoes/2.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/shoes/6.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-m-4 col-12">
+          <img class="img-fluid mb-3" src="img/shoes/5.jpg" alt="" />
+          <!--mb-3 is margin bottom 3-->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h5 class="p-name">Sport Boots</h5>
+          <h4 class="p-price">$92.00</h4>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </section>
 
     <footer class="mt-5 py-5">
       <div class="row container mx-auto pt-5">
