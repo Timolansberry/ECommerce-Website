@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="img/shop-logo.png" type="x-icon" />
+
+    <style>
+      /* internal styles */
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%; /* for small images 24% of 4 column */
+    cursor: pointer;
+}
+.sproduct select{
+    display: block;
+    padding: 5px 10px;
+}
+
+.sproduct input{
+width: 50px;
+height:40px;
+padding-left: 10px;
+font-size: 16px;
+margin-right: 10px;
+}
+
+.sproduct input:focus{
+    outline: none;
+}
+
+.buy-btn{
+    background-color: #ff523b;
+    opacity: 1;
+    transition: 0.3 all;
+}
+
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+      <!--py is booster class padding on y axis top and bottom highest is 5, px is padding on x axis-->
+      <!--fixed-top is booster class to make navbar fixed on top-->
+      <div class="container">
+        <a href="index.html"><img src="img/logo-and-name.png" alt="logo1" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i id="bar" class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- ml-auto is booster class to push the nav items to the right (means margin from left)-->
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact US</a>
+            </li>
+            <li class="nav-item">
+              
+              <a href="cart.html" class="checkout"><i class="fal fa-shopping-bag"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class=" container sproduct my-5 pt-5">
+      <div class="row mt-5">
+        <!-- row is booster class to make left and right side row -->
+        <div class="col-lg-5 col-md-12 col-12">
+          <img class="img-fluid w-100 pb-1" src="img/shop/2.jpg" alt="" id="MainImg"/>
+          <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="img/shop/2.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="img/shop/4.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="img/shop/7.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="img/shop/12.jpg" width="100%" class="small-img" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12">
+            <h6>Home / Shoes</h6>
+            <h3 class="py-4" >Fashion Shoe Collection</h3>
+            <h2>$49.99</h2>
+            <select name="" id="" class="my-3">
+                <option>Select Size</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+            <input type="number" value="1">
+            <button class="buy-btn">Add To Cart</button>
+            <h4 class="mt-5 mb-5" >Product Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur molestias quia sed, iste, ea omnis temporibus minima similique eos veritatis! Iure voluptatum aut nihil tempora eos dolores, illo provident repellat magni sed quisquam similique error fugit reprehenderit fugiat aliquid, sunt tenetur vitae obcaecati quo iusto ipsam odio. Exercitationem, excepturi?</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+          <!--mt-5 is margin top 5, py-5 is padding top and bottom 5-->
+          <h3>Related Products</h3>
+          <hr class="mx-auto" />
+          <!--mx-auto is margin x axis auto (left and right)-->
+          
+        </div>
+        <div class="row mx-auto container-fluid">
+          <!--mx-auto is margin x axis auto (left and right), container fluid gives space on left side-->
+          <div class="product text-center col-lg-3 col-m-4 col-12">
+            <img class="img-fluid mb-3" src="img/featured/1.jpg" alt="" />
+            <!--mb-3 is margin bottom 3-->
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Sport Boots</h5>
+            <h4 class="p-price">$92.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="product text-center col-lg-3 col-m-4 col-12">
+            <img class="img-fluid mb-3" src="img/featured/2.jpg" alt="" />
+            <!--mb-3 is margin bottom 3-->
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Sport Boots</h5>
+            <h4 class="p-price">$92.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="product text-center col-lg-3 col-m-4 col-12">
+            <img class="img-fluid mb-3" src="img/featured/3.jpg" alt="" />
+            <!--mb-3 is margin bottom 3-->
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Sport Boots</h5>
+            <h4 class="p-price">$92.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="product text-center col-lg-3 col-m-4 col-12">
+            <img class="img-fluid mb-3" src="img/featured/4.jpg" alt="" />
+            <!--mb-3 is margin bottom 3-->
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Sport Boots</h5>
+            <h4 class="p-price">$92.00</h4>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <footer class="mt-5 py-5">
+      <div class="row container mx-auto pt-5">
+        <!--pt-5 is padding top 5 -->
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <img class="footer-logo py-2 px-2" src="img/logo-and-name.png" alt="" />
+          <p class="pt-3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+            unde labore reprehenderit, quae vel maiores quod ipsa porro?
+          </p>
+        </div>
+
+        <div class="footer-two col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Featured</h5>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="">men</a></li>
+            <li><a href="">women</a></li>
+            <li><a href="">boys</a></li>
+            <li><a href="">girls</a></li>
+            <li><a href="">new arrivals</a></li>
+            <li><a href="">shoes</a></li>
+            <li><a href="">clothes</a></li>
+          </ul>
+        </div>
+        <div class="footer-two col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Contact Us</h5>
+          <div class="">
+            <h6 class="text-uppercase">Address</h6>
+            <p>123, Main Street, Your City</p>
+          </div>
+          <div class="">
+            <h6 class="text-uppercase">Phone</h6>
+            <p>(123) 456-7890</p>
+          </div>
+          <div class="">
+            <h6 class="text-uppercase">Email</h6>
+            <p>mail@example.com</p>
+          </div>
+        </div>
+        <div class="footer-two col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2">Instagram</h5>
+          <div class="row">
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="img/insta/1.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="img/insta/2.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="img/insta/3.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="img/insta/4.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid w-25 h-100 m-2"
+              src="img/insta/5.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright mt-5">
+        <div class="row container mx-auto">
+          <div class="col-lg-3 col-md-6 col-12 mb-4">
+            <img src="img/payment.png" alt="" />
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+            <p>Shops eCommerce © 2023. All Rights Reserved</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="" class=""><i class="fab fa-facebook-f"></i></a>
+            <a href="" class=""><i class="fab fa-twitter"></i></a>
+            <a href="" class=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+
+
+    ></script>
+
+    <script>
+      // script for image change on click
+        var MainImg = document.getElementById("MainImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+        SmallImg[0].onclick = function(){     //on click replaces the main image with the small image 
+          MainImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function(){     //on click replaces the main image with the small image 
+          MainImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function(){     //on click replaces the main image with the small image 
+          MainImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function(){     //on click replaces the main image with the small image 
+          MainImg.src = SmallImg[3].src;
+        }
+
+
+    </script>
+  </body>
+</html>
