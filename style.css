@@ -679,3 +679,21 @@ margin-right: 15px;
     display: none;
   }
 }
+
+/* Added below for firefox */
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+}
+
+#about-head div {
+  flex: 1;
+  padding-left: 40px;
+}
