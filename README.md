@@ -9,7 +9,7 @@ You can see it live by clicking [here](https://timolansberry.github.io/Ecommerce
 
 [To open in a new tab press CTRL+click (on Windows and Linux) or CMD+click (on MacOS)]
 
-## Tech Stack
+## Tech Stack 
 
 HTML, CSS, Javascript, & Bootstrap
 
