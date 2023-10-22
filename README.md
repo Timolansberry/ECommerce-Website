@@ -3,7 +3,7 @@
  
 Responsive E-commerce website that allows  browsing and adding items to cart... 
 
-## Live website    
+## Live website     
 
 You can see it live by clicking [here](https://timolansberry.github.io/Ecommerce-website/).
 
