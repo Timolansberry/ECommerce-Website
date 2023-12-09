@@ -1,5 +1,5 @@
       
-# E-commerce website                                             
+# E-commerce website                                              
  
 Responsive E-commerce website that allows  browsing and adding items to cart... 
 
